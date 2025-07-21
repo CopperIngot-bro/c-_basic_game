@@ -4,7 +4,7 @@ using namespace std;
 void ispis(vector<vector<int>>& kokos) {
   for (const auto& red:kokos) {
     for (int broj:red) {
-      printf(broj);
+      cout <<broj;
     }
     cout << endl;
   }
